@@ -1,0 +1,11 @@
+{
+  "name": "cuda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "sass --no-source-map --watch ./main.scss:./style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
