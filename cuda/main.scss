@@ -8,6 +8,19 @@ ligne colors: #14a58c   #c8d9e5   #dfe8ed  #b73c6d   #273a71
 text colors: #  #27283d  #55c2e9  #4d586f #ffdd99 #30bae7
 */
 //----------------------------------------------------------------------------------------
+.logocuda{
+    padding: 25px;
+    
+}
+@media screen and (max-width: 720px){
+    .logocuda{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -40px;
+    }
+}
+
 a{
     font-family: 'Conv_TitilliumWeb-Regular';
 }
@@ -107,7 +120,7 @@ div:nth-child(5){
     background-color: #3c5499;
     height: 100vh;
     @media screen and (max-width: 720px) {
-        height: 130vh;
+        height: 120vh;
     }
     
 }
@@ -118,17 +131,21 @@ div:nth-child(5){
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     text-align: center;
-    grid-template-areas: "a b c d e f g";
+    grid-template-areas: "facebook twitter google linkedin behance dribble github";
     
     
     @media screen and (max-width: 720px){
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         height: 30vh;
-        grid-template-areas: "a b c"
-                             "d e f"
-                             "g g g";
+        grid-template-areas: "facebook twitter google"
+                             "linkedin behance dribble"
+                             "github github github";
         
+        .github{
+            grid-row: github;
+            grid-column: github;
+        }
     }
 }
 //--------------------------------------menu responsive-------------------------------------------------
@@ -138,11 +155,21 @@ div:nth-child(5){
 
 ul.topnav {
     list-style-type: none;
+    float: right;
     margin: 0;
+    margin-right: 70px;
     padding: 20px;
     overflow: hidden;
     background-color: #87509c ;
   }
+
+  @media screen and (max-width: 720px){
+    ul.topnav {
+    float: none;
+    margin-right: 0;
+
+  }
+}
   
   ul.topnav li {float: left;}
   
@@ -401,8 +428,22 @@ font-size: 0.9rem;
             text-align: center;
             margin: 0;
         }
-        .b{margin-left: -13px;}
-        
+        #nom,#email{
+            width: 100%;
+        }
+        .b{
+            margin-left: 0;
+        }
+
+        .d{
+            margin-top: 50px;
+        }
+        .a{
+            margin-right: 0;
+        }
+        #message{
+        width: 100%;
+        }
     }
 }
 .hr5{
@@ -466,6 +507,7 @@ h36{
 .c{
     grid-area: c;
     text-align: center;
+    overflow: hidden;
     
     
 }
