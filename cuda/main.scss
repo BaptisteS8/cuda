@@ -93,7 +93,7 @@ div:nth-child(3){
     background: #e7f1f8;
     height: 120vh;
     @media screen and (max-width: 720px) {
-        height: 170vh;
+        height: 160vh;
     }
 }
 // section 4 --------------------
@@ -101,6 +101,9 @@ div:nth-child(4){
     background: #ffffff ;
     height: 100vh;
     margin-bottom: 10vh ;
+    @media screen and (max-width: 720px) {
+        height: 80vh;
+    }
 }
 // section 5 --------------------
 div:nth-child(5){
@@ -110,7 +113,7 @@ div:nth-child(5){
         height: 150vh;
     }
     @media screen and (max-width: 720px) {
-        height: 185vh;
+        height: 190vh;
         margin-top: 250px;
     }
 }
@@ -245,7 +248,7 @@ a.bouton1 {
         font-size: 0.7em;
     }
    .h4s1{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 5vh;
    }
    .img1{
@@ -300,26 +303,7 @@ font-size: 0.9rem;
         margin-top: 15vh;
     }
 }
-@media screen and (max-width: 720px){
-    .txt2{
-        font-size: 0.7rem;
-       margin-left: 5px;
-       margin-right: 5px;
-    }
-    .img2{
-        width: 100px;
-    }
-    .h43{
-        font-size: 0.9rem;
-    margin-top: 5vh;
-    }
-    .p3m{
-        font-size: 0.8rem ;
-    }
-    .p3{
-        font-size: 0.7rem;
-    }
-  }
+
 .h43{
     font-family: 'Conv_TitilliumWeb-Regular';
     color:#27283d;
@@ -334,6 +318,27 @@ font-size: 0.9rem;
     color: #3c4761 ;
     font-size: 0.9rem;
 }
+@media screen and (max-width: 720px){
+    .txt2{
+        font-size: 0.7rem;
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+    .img2{
+        width: 100px;
+    }
+    .h43{
+        font-size: 1rem;
+        margin-top: 5vh;
+    }
+    .p3m{
+        font-size: 0.8rem ;
+    }
+    .p3{
+        font-size: 0.7rem;
+    }
+    
+  }
 //--------------------------------------------------section 4 -------------------------------------------------------
 .hr3{
     color: #dfe8ed; 
@@ -370,6 +375,13 @@ font-size: 0.9rem;
         margin-top: 15vh;
     }
 }
+
+.h44{
+    font-family: 'Conv_TitilliumWeb-Regular';
+    color:#3c4761;
+    font-size: 1.9rem;
+    margin-top: 5vh;
+}
 @media screen and (max-width: 720px){
 
     .txt3{
@@ -383,12 +395,6 @@ font-size: 0.9rem;
     .img3{
         width: 120px;
     }
-}
-.h44{
-    font-family: 'Conv_TitilliumWeb-Regular';
-    color:#3c4761;
-    font-size: 1.9rem;
-    margin-top: 5vh;
 }
 //-------------------------------------------SECTION 5 ------------------------------------------------------------
 .hr4{
