@@ -85,7 +85,7 @@ div:nth-child(1) {
 }
 @media screen and (max-width: 720px) {
   div:nth-child(1) {
-    height: 100vh;
+    height: 120vh;
   }
 }
 
@@ -95,7 +95,7 @@ div:nth-child(2) {
 }
 @media screen and (max-width: 720px) {
   div:nth-child(2) {
-    height: 170vh;
+    height: 150vh;
   }
 }
 
@@ -126,7 +126,7 @@ div:nth-child(5) {
 }
 @media screen and (max-width: 720px) {
   div:nth-child(5) {
-    height: 200vh;
+    height: 185vh;
     margin-top: 250px;
   }
 }
@@ -137,7 +137,7 @@ div:nth-child(5) {
 }
 @media screen and (max-width: 720px) {
   .div6 {
-    height: 120vh;
+    height: 130vh;
   }
 }
 
@@ -255,6 +255,26 @@ a.bouton1:hover {
   }
 }
 
+@media screen and (max-width: 720px) {
+  .p2 {
+    font-size: 0.7em;
+  }
+
+  .h4s1 {
+    font-size: 0.9rem;
+    margin-top: 5vh;
+  }
+
+  .img1 {
+    width: 100px;
+  }
+
+  .txt1 {
+    font-size: 0.7rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
 .p2 {
   color: white;
   font-size: 0.9rem;
@@ -300,6 +320,30 @@ a.bouton1:hover {
   }
 }
 
+@media screen and (max-width: 720px) {
+  .txt2 {
+    font-size: 0.7rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .img2 {
+    width: 100px;
+  }
+
+  .h43 {
+    font-size: 0.9rem;
+    margin-top: 5vh;
+  }
+
+  .p3m {
+    font-size: 0.8rem;
+  }
+
+  .p3 {
+    font-size: 0.7rem;
+  }
+}
 .h43 {
   font-family: "Conv_TitilliumWeb-Regular";
   color: #27283d;
@@ -357,6 +401,21 @@ a.bouton1:hover {
   }
 }
 
+@media screen and (max-width: 720px) {
+  .txt3 {
+    font-size: 0.7rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .h44 {
+    font-size: 1rem;
+  }
+
+  .img3 {
+    width: 120px;
+  }
+}
 .h44 {
   font-family: "Conv_TitilliumWeb-Regular";
   color: #3c4761;
@@ -403,8 +462,32 @@ a.bouton1:hover {
     text-align: center;
   }
   .grid4 .cerclegris {
-    width: 150px;
+    width: 130px;
   }
+}
+
+@media screen and (max-width: 720px) {
+  .h35 {
+    font-size: 1rem;
+  }
+
+  .p5 {
+    font-size: 0.7rem;
+  }
+
+  .h45 {
+    font-size: 1.2rem;
+    margin-top: 0px;
+  }
+
+  .p5bis {
+    font-size: 0.7rem;
+    margin-top: -25px;
+    margin-bottom: 100px;
+  }
+}
+.cerclegris {
+  width: 150px;
 }
 
 .p5 {

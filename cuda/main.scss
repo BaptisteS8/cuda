@@ -76,7 +76,7 @@ div:nth-child(1){
     
 
     @media screen and (max-width: 720px) {
-        height: 100vh;
+        height: 120vh;
     }
 }
 // section 2 --------------------
@@ -85,7 +85,7 @@ div:nth-child(2){
     height: 110vh;
     
     @media screen and (max-width: 720px) {
-        height: 170vh;
+        height: 150vh;
     }
 }
 // section 3 --------------------
@@ -110,7 +110,7 @@ div:nth-child(5){
         height: 150vh;
     }
     @media screen and (max-width: 720px) {
-        height: 200vh;
+        height: 185vh;
         margin-top: 250px;
     }
 }
@@ -120,7 +120,7 @@ div:nth-child(5){
     background-color: #3c5499;
     height: 100vh;
     @media screen and (max-width: 720px) {
-        height: 120vh;
+        height: 130vh;
     }
     
 }
@@ -240,10 +240,28 @@ a.bouton1 {
         margin-top: 15vh;
     }
 }
+@media screen and (max-width: 720px){
+    .p2{
+        font-size: 0.7em;
+    }
+   .h4s1{
+    font-size: 0.9rem;
+    margin-top: 5vh;
+   }
+   .img1{
+       width: 100px;
+   }
+   .txt1{
+       font-size: 0.7rem;
+       margin-left: 5px;
+       margin-right: 5px;
+   }
+}
 .p2{
 color: white;
 font-size: 0.9rem;
 }
+
 //-------------------------------------------------section 3 ---------------------------------------------------------------
 .hr2{
     color: #c8d9e5; 
@@ -280,6 +298,26 @@ font-size: 0.9rem;
         margin-left: 30px;
         margin-right: 30px;
         margin-top: 15vh;
+    }
+}
+@media screen and (max-width: 720px){
+    .txt2{
+        font-size: 0.7rem;
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+    .img2{
+        width: 100px;
+    }
+    .h43{
+        font-size: 0.9rem;
+    margin-top: 5vh;
+    }
+    .p3m{
+        font-size: 0.8rem ;
+    }
+    .p3{
+        font-size: 0.7rem;
     }
   }
 .h43{
@@ -332,6 +370,20 @@ font-size: 0.9rem;
         margin-top: 15vh;
     }
 }
+@media screen and (max-width: 720px){
+
+    .txt3{
+        font-size: 0.7rem;
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+    .h44{
+        font-size: 1rem;
+    }
+    .img3{
+        width: 120px;
+    }
+}
 .h44{
     font-family: 'Conv_TitilliumWeb-Regular';
     color:#3c4761;
@@ -374,11 +426,31 @@ font-size: 0.9rem;
             text-align: center;
         }
         .cerclegris{
-            width: 150px;
+            width: 130px;
         }
     }
+}
+@media screen and (max-width: 720px){
 
-
+   .h35{
+       font-size: 1rem;
+   }
+   .p5{
+       font-size: 0.7rem;
+   }
+   .h45{
+       font-size: 1.2rem;
+       margin-top: 0px;
+   }
+   .p5bis{
+    font-size: 0.7rem;
+    margin-top: -25px;
+    margin-bottom: 100px;
+   }
+   
+}
+.cerclegris{
+    width: 150px;
 }
 .p5{
     font-family: 'Conv_TitilliumWeb-Italic';
@@ -424,6 +496,7 @@ font-size: 0.9rem;
                              "c"
                              "d";
         justify-content: center;
+        
         form{
             text-align: center;
             margin: 0;
